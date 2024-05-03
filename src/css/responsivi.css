@@ -197,10 +197,10 @@
     height: 300px;
   }
 
-  /* .movies-content {
-    grid-template-columns: repeat(2, minmax(100px, 1fr));
+  .movies-content {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 1rem;
-  } */
+  }
 }
 
 @media (max-width: 370px) {
@@ -226,13 +226,15 @@
   .about-movie p {
     text-align:  justify;
   }
+}
 
-  .movie-box {
-    height: 240px;
+@media (max-width: 328px) {
+  #box-movie {
+    height: 450px;
   }
 
   .movies-content {
-    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    grid-template-columns: repeat(1, minmax(150px, 1fr));
     gap: 1rem;
   }
 }
