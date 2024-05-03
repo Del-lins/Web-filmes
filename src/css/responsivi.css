@@ -197,10 +197,10 @@
     height: 300px;
   }
 
-  .movies-content {
+  /* .movies-content {
     grid-template-columns: repeat(2, minmax(100px, 1fr));
     gap: 1rem;
-  }
+  } */
 }
 
 @media (max-width: 370px) {
@@ -229,5 +229,10 @@
 
   .movie-box {
     height: 240px;
+  }
+
+  .movies-content {
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    gap: 1rem;
   }
 }
