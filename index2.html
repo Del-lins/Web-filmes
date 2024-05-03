@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/favicon-icon.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/css/global.css" />
+    <link rel="stylesheet" href="./src/css/header.css" />
+    <link rel="stylesheet" href="./src/css/section.css" />
+    <link rel="stylesheet" href="./src/css/section2.css" />
+    <link rel="stylesheet" href="./src/css/section3.css" />
+    <link rel="stylesheet" href="./src/css/play-container.css" />
+    <link rel="stylesheet" href="./src/css/animate.css" />
+    <link rel="stylesheet" href="./src/css/video.css" />
+    <link rel="stylesheet" href="./src/css/about.css" />
+    <link rel="stylesheet" href="./src/css/responsivi.css" />
+    <title>Jumanji: Bem vindo a selva</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav container">
+        <a href="index.html" class="logo"> DLFil<span>mes</span> </a>
+        <div class="search-box">
+          <input
+            type="search"
+            name=""
+            id="search-input"
+            placeholder="Search movie"
+          />
+          <i class="bx bx-search"></i>
+        </div>
+        <a href="#" class="user">
+          <img class="user-img" src="./src/assets/dell.jpg" alt="" />
+        </a>
+
+        <div class="nav-bar">
+          <a href="index.html" class="nav-link nav-active">
+            <i class="bx bx-home"></i>
+            <span class="nav-link-title">Home</span>
+          </a>
+
+          <a href="#home" class="nav-link">
+            <i class="bx bxs-hot"></i>
+            <span class="nav-link-title">Trending</span>
+          </a>
+
+          <a href="#home" class="nav-link">
+            <i class="bx bx-compass"></i>
+            <span class="nav-link-title">Explorar</span>
+          </a>
+
+          <a href="#home" class="nav-link">
+            <i class="bx bx-tv"></i>
+            <span class="nav-link-title">Filmes</span>
+          </a>
+
+          <a href="#home" class="nav-link">
+            <i class="bx bx-heart"></i>
+            <span class="nav-link-title">Favoritos</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div class="play-container container">
+      <img src="./src/assets/play-background.jpg" class="play-img" alt="Imagem Jumanji">
+      <div class="play-text">
+        <h2>Jumanji: Bem vindo a selva</h2>
+        <div class="rating">
+          <i class="bx bxs-star" ></i>
+          <i class="bx bxs-star" ></i>
+          <i class="bx bxs-star" ></i>
+          <i class="bx bxs-star" ></i>
+          <i class="bx bxs-star-half" ></i>
+        </div>
+        <div class="tags">
+          <span>Ação</span>
+          <span>Aventura</span>
+          <span>4K</span>
+        </div>
+        <a href="" class="watch-btn">
+          <i class="bx bx-right-arrow " ></i>
+          <span>Assista ao trailer</span>
+        </a>
+      </div>
+
+      <i class="bx bx-right-arrow play-trailer" ></i>
+      <div class="video-container">
+        <div class="video-box">
+          <video id="video" src="./src/video/Jumanji.mp4" controls></video>
+          <i class="bx bx-x close-video"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-movie container">
+      <h2>Jumanji: Bem vindo a selva</h2>
+      <p>Quando quatro alunos brincam com um videogame mágico, eles são atraídos para a selva
+        mundo de Jumanji, onde eles ficam presos como seus avatares. Para voltar ao mundo real,
+        eles devem terminar o jogo.
+      </p>
+      <h2 class="w">Elenco do filme</h2>
+      <div class="cast">
+        <div class="cast-box">
+          <img src="./src/assets/cast1.jpg" alt="Dwayne Johnson" class="cast-img">
+          <span class="cast-title">Dwayne Johnson</span>
+        </div>
+
+        <div class="cast-box">
+          <img src="./src/assets/cast2.jpg" alt="Dwayne Johnson" class="cast-img">
+          <span class="cast-title">Karen Gillan</span>
+        </div>
+
+        <div class="cast-box">
+          <img src="./src/assets/cast3.jpg" alt="Dwayne Johnson" class="cast-img">
+          <span class="cast-title">Kevin Hart</span>
+        </div>
+
+        <div class="cast-box">
+          <img src="./src/assets/cast4.jpg" alt="Dwayne Johnson" class="cast-img">
+          <span class="cast-title">Jack Black</span>
+        </div>
+
+        <div class="cast-box">
+          <img src="./src/assets/cast5.jpg" alt="Dwayne Johnson" class="cast-img">
+          <span class="cast-title">Nick Jonas</span>
+        </div>
+
+        <div class="cast-box">
+          <img src="./src/assets/cast6.jpg" alt="Dwayne Johnson" class="cast-img">
+          <span class="cast-title">Madison Iseman</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="download">
+      <h2 class="download-title">Baixar filme</h2>
+      <div class="download-links">
+        <a href="./src/video/Jumanji.mp4" download>480</a>
+        <a href="./src/video/Jumanji.mp4" download>720</a>
+        <a href="./src/video/Jumanji.mp4" download>1080</a>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>&#169; Todos os direitos reservados</p>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+    <script src="./src/js/video.js"></script>
+  </body>
+</html>

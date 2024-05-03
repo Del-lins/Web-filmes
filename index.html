@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./src/assets/favicon-icon.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Web Filmes" />
+    <meta property="og:image"
+        content=""
+    />
+    <meta property="og:description" content="Os melhores filmes e séries" />
+    <meta property="og:site_name" content="DL Filmes" />
+    <link rel="stylesheet" href="./src/css/global.css" />
+    <link rel="stylesheet" href="./src/css/header.css" />
+    <link rel="stylesheet" href="./src/css/section.css" />
+    <link rel="stylesheet" href="./src/css/section2.css" />
+    <link rel="stylesheet" href="./src/css/section3.css" />
+    <link rel="stylesheet" href="./src/css/play-container.css" />
+    <link rel="stylesheet" href="./src/css/video.css" />
+    <link rel="stylesheet" href="./src/css/animate.css">
+    <link rel="stylesheet" href="./src/css/responsivi.css" />
+    <title>Web DM Filmes</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="nav container">
+        <a href="index.html" class="logo"> DLFil<span>mes</span> </a>
+        <div class="search-box">
+          <input
+            type="search"
+            name=""
+            id="search-input"
+            placeholder="Pesquisar filme"
+          />
+          <i class="bx bx-search"></i>
+        </div>
+        <a href="#" class="user">
+          <img class="user-img" src="./src/assets/dell.jpg" alt="" />
+        </a>
+
+        <div class="nav-bar">
+          <a href="#home" class="nav-link nav-active">
+            <i class="bx bx-home"></i>
+            <span class="nav-link-title">Home</span>
+          </a>
+
+          <a href="#popular" class="nav-link">
+            <i class="bx bxs-hot"></i>
+            <span class="nav-link-title">Trending</span>
+          </a>
+
+          <a href="#filmes" class="nav-link">
+            <i class="bx bx-compass"></i>
+            <span class="nav-link-title">Explorar</span>
+          </a>
+
+          <a href="#filmes" class="nav-link">
+            <i class="bx bx-tv"></i>
+            <span class="nav-link-title">Filmes</span>
+          </a>
+
+          <a href="#home" class="nav-link">
+            <i class="bx bx-heart"></i>
+            <span class="nav-link-title">Favoritos</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section class="home container" id="home">
+      <img src="./src/assets/capa-Venom.jpg" class="home-img" alt="Venom" />
+      <div class="home-text">
+        <h1 class="home-title">Venom: Tempo de <br />Carnificina</h1>
+        <p>Em breve nos cinemas</p>
+        <a href="./index1.html" class="watch-btn ">
+          <span>Assista ao trailer</span>
+          <i class="bx bx-right-arrow " id="btn"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="popular container" id="popular">
+      <div class="heading">
+        <h2 class="heading-title">Filmes populares</h2>
+        <div class="swiper-btn">
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+      <div class="popular-content swiper">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img
+                src="./src/img/popular-movie-1.jpg"
+                alt=""
+                class="movie-box-img"
+              />
+              <div class="box-text">
+                <h2 class="movie-title">Spider-Man: Sem volta pra casa</h2>
+                <span class="movie-type">Ação</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img
+                src="./src/img/popular-movie-2.jpg"
+                alt=""
+                class="movie-box-img"
+              />
+              <div class="box-text">
+                <h2 class="movie-title">Jungle Cruise</h2>
+                <span class="movie-type">Ação/Aventura</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img
+                src="./src/img/popular-movie-3.jpg"
+                alt=""
+                class="movie-box-img"
+              />
+              <div class="box-text">
+                <h2 class="movie-title">Loki</h2>
+                <span class="movie-type">Ação</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img
+                src="./src/img/popular-movie-4.jpg"
+                alt=""
+                class="movie-box-img"
+              />
+              <div class="box-text">
+                <h2 class="movie-title">Round 6</h2>
+                <span class="movie-type">Ação/Drama</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img
+                src="./src/img/popular-movie-5.jpg"
+                alt=""
+                class="movie-box-img"
+              />
+              <div class="box-text">
+                <h2 class="movie-title">O Falcão e o Soldado Invernal</h2>
+                <span class="movie-type">Ação</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img
+                src="./src/img/popular-movie-6.jpg"
+                alt=""
+                class="movie-box-img"
+              />
+              <div class="box-text">
+                <h2 class="movie-title">Gavião Arqueiro</h2>
+                <span class="movie-type">Ação</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img
+                src="./src/img/popular-movie-7.jpg"
+                alt=""
+                class="movie-box-img"
+              />
+              <div class="box-text">
+                <h2 class="movie-title">Agentes da S.H.I.E.L.D.</h2>
+                <span class="movie-type">Ação</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="movie-box">
+              <img
+                src="./src/img/popular-movie-8.jpg"
+                alt=""
+                class="movie-box-img"
+              />
+              <div class="box-text">
+                <h2 class="movie-title">Flash</h2>
+                <span class="movie-type">Ação/Ficção Científica</span>
+                <a href="#" class="watch-btn play-btn">
+                  <i class="bx bx-right-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>     
+      </div>
+    </section>
+
+    <section class="movies container" id="filmes">
+      <div class="heading">
+        <h2 class="heading-title">
+          Filmes e programas
+        </h2>
+      </div>
+
+      <div class="movies-content">
+        <div class="movie-box">
+          <img
+            src="./src/img/movie-1.jpg"
+            alt=""
+            class="movie-box-img"
+          />
+          <div class="box-text">
+            <h2 class="movie-title">Jumanji: Bem vindo a selva</h2>
+            <span class="movie-type">Ação/Aventura</span>
+            <a href="index2.html" class="watch-btn play-btn">
+              <i class="bx bx-right-arrow"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="movie-box">
+          <img
+            src="./src/img/movie-2.jpg"
+            alt=""
+            class="movie-box-img"
+          />
+          <div class="box-text">
+            <h2 class="movie-title">Hitman's Wife's Bodyguard</h2>
+            <span class="movie-type">Ação/Comedia</span>
+            <a href="#" class="watch-btn play-btn">
+              <i class="bx bx-right-arrow"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="movie-box">
+          <img
+            src="./src/img/programa.jpg"
+            alt=""
+            class="movie-box-img"
+          />
+          <div class="box-text">
+            <h2 class="movie-title">Dois homens e meio</h2>
+            <span class="movie-type">Comedia</span>
+            <a href="#" class="watch-btn play-btn">
+              <i class="bx bx-right-arrow"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="movie-box">
+          <img
+            src="./src/img/movie-4.jpg"
+            alt=""
+            class="movie-box-img"
+          />
+          <div class="box-text">
+            <h2 class="movie-title">Os Eternos</h2>
+            <span class="movie-type">Ação/Ficção Científica</span>
+            <a href="#" class="watch-btn play-btn">
+              <i class="bx bx-right-arrow"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="movie-box">
+          <img
+            src="./src/img/movie-5.jpg"
+            alt=""
+            class="movie-box-img"
+          />
+          <div class="box-text">
+            <h2 class="movie-title">Spectre</h2>
+            <span class="movie-type">Ação</span>
+            <a href="#" class="watch-btn play-btn">
+              <i class="bx bx-right-arrow"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="movie-box">
+          <img
+            src="./src/img/movie-6.jpg"
+            alt=""
+            class="movie-box-img"
+          />
+          <div class="box-text">
+            <h2 class="movie-title">A casa de papel</h2>
+            <span class="movie-type">Ação</span>
+            <a href="#" class="watch-btn play-btn">
+              <i class="bx bx-right-arrow"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="movie-box">
+          <img
+            src="./src/img/movie-7.jpg"
+            alt=""
+            class="movie-box-img"
+          />
+          <div class="box-text">
+            <h2 class="movie-title">Wolverine</h2>
+            <span class="movie-type">Ação/Ficção Científica</span>
+            <a href="#" class="watch-btn play-btn">
+              <i class="bx bx-right-arrow"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="movie-box">
+          <img
+            src="./src/img/movie-8.jpg"
+            alt=""
+            class="movie-box-img"
+          />
+          <div class="box-text">
+            <h2 class="movie-title">Jonny English</h2>
+            <span class="movie-type">Ação/Comedia</span>
+            <a href="#" class="watch-btn play-btn">
+              <i class="bx bx-right-arrow"></i>
+            </a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="next-page">
+      <a href="#" class="next-btn">Próxima página</a>
+    </div>
+
+    <div class="copyright">
+      <p>&#169; Todos os direitos reservados</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
