@@ -234,7 +234,6 @@
   }
 
   .movies-content {
-    grid-template-columns: repeat(1, minmax(150px, 1fr));
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 }
